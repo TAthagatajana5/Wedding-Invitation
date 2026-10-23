@@ -12,7 +12,7 @@ Blessing: Shree Ganeshaya Namah | Subtitle: Wedding Invitation
 Main date: 28th November, 2026, 7:00 PM IST
 Venue: Parinoy The Banquet
 Address: N.H-60, beside Indian Oil Pump, Dharma, Habibpur, Midnapore, West Bengal 721101
-Maps: https://maps.app.goo.gl/Py8r6X8kHbPMPFsa7?g_st=aw
+Maps: https://maps.app.goo.gl/ygKmYHynEQ2tuws1A
 Families: With love, the Panja families
 RSVP: +91 9434414260 (Aditya Kr. Panja)
 Haldi | 26 Nov 2026 | Thursday | Own House, Sepoy Bazar, Midnapore
@@ -80,8 +80,10 @@ h2{font-size:clamp(34px,9vw,52px);margin:6px 0 28px}
 /* ===== VENUE ===== */
 .vg{display:grid;gap:14px;grid-template-columns:1fr;margin-bottom:22px}
 .vg h3{font-size:22px}.vg p{font-size:16px}
-.map{display:block;margin:22px auto 0;max-width:560px;border:1px solid var(--gd);border-radius:18px;overflow:hidden;text-decoration:none}
-.map svg{display:block;width:100%;height:auto}
+.map{display:block;margin:22px auto 0;max-width:560px;padding:8px;border:1px solid var(--gd);border-radius:18px;overflow:hidden;background:rgba(255,250,240,.92);box-shadow:0 10px 28px rgba(94,15,28,.12)}
+.map-label{display:flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:0 8px;color:var(--rd);font:500 13px Jost,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.map-label::before{content:"";width:7px;height:7px;flex:none;border:2px solid var(--gd);border-radius:50%;background:var(--rd);box-shadow:0 0 0 3px rgba(184,137,59,.18)}
+.map iframe{display:block;width:100%;height:clamp(260px,68vw,360px);border:1px solid rgba(184,137,59,.55);border-radius:11px}
 /* ===== EVENTS ===== */
 .tl{list-style:none;padding:0;position:relative;text-align:left;max-width:560px;margin:auto}
 .tl::before{content:"";position:absolute;left:21px;top:10px;bottom:10px;width:2px;background:repeating-linear-gradient(var(--gd) 0 6px,transparent 6px 12px)}
@@ -179,10 +181,11 @@ footer h2{margin:8px 0}
   <div class="card rv" style="--i:2"><h3>Time</h3><p>7:00 PM IST</p></div>
   <div class="card rv" style="--i:3"><h3>Venue</h3><p>Parinoy The Banquet</p><p>N.H-60, beside Indian Oil Pump, Dharma, Habibpur, Midnapore, West Bengal 721101</p></div>
  </div>
- <div class="rv"><button class="btn o" id="cal" type="button">Add to Calendar</button><a class="btn" href="https://maps.app.goo.gl/Py8r6X8kHbPMPFsa7?g_st=aw" target="_blank" rel="noopener">Get Directions</a></div>
- <a class="map rv" href="https://maps.app.goo.gl/Py8r6X8kHbPMPFsa7?g_st=aw" target="_blank" rel="noopener" aria-label="Open Parinoy The Banquet in Google Maps">
-  <svg viewBox="0 0 400 240"><rect width="400" height="240" fill="#F3E6CF"/><path d="M-10 170L410 90" stroke="#fffaf0" stroke-width="26"/><path d="M150-10L230 250" stroke="#fffaf0" stroke-width="18"/><path d="M-10 60L300 -10" stroke="#fffaf0" stroke-width="12"/><path d="M-10 170L410 90M150-10L230 250" stroke="#E9CF93" stroke-width="2" stroke-dasharray="10 8" fill="none"/><rect x="250" y="130" width="90" height="60" rx="8" fill="#E7D3B0"/><rect x="20" y="190" width="90" height="40" rx="8" fill="#D9E2C3"/><path d="M200 78c-14 0-24 10-24 24 0 18 24 40 24 40s24-22 24-40c0-14-10-24-24-24z" fill="#B01E2F" stroke="#5E0F1C" stroke-width="2"/><circle cx="200" cy="102" r="8" fill="#FBF4E6"/><text x="200" y="176" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="22" font-weight="600" fill="#5E0F1C">Parinoy The Banquet</text></svg>
- </a>
+ <div class="rv"><button class="btn o" id="cal" type="button">Add to Calendar</button><a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=22.42923367959408%2C87.33529867478236" target="_blank" rel="noopener">Get Directions</a></div>
+ <div class="map rv" aria-label="Map showing Parinoy The Banquet">
+  <div class="map-label">Parinoy The Banquet · Midnapore</div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.9944774832247!2d87.33529867478236!3d22.42923367959408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d5b93697d8181%3A0xbf7673180e5a6e70!2sParinoy%20The%20Banquet%20%7CBest%20Banquet%20Hall%20In%20Midnapore%7CBest%20Marriage%20Hall%7C%20Party%20Hall!5e0!3m2!1sen!2sin!4v1792755852811!5m2!1sen!2sin" title="Parinoy The Banquet on Google Maps" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+ </div>
 </section>
 
 <!-- ===== EVENTS ===== -->
@@ -191,7 +194,7 @@ footer h2{margin:8px 0}
  <ol class="tl">
   <li class="rv"><i>1</i><h3>Haldi</h3><p>26 Nov 2026 &middot; Thursday</p><p>Own House, Sepoy Bazar, Midnapore</p></li>
   <li class="rv"><i>2</i><h3>Wedding</h3><p>26 Nov 2026 &middot; Thursday</p><p>Shree Bishnu Mandir, Belda &amp; Shree Banquet Hall, Midnapore</p></li>
-  <li class="rv"><i>3</i><h3>Reception</h3><p>28 Nov 2026 &middot; Saturday &middot; 7:00 PM</p><p>Parinoy The Banquet, Dharma, Midnapore</p><a href="https://maps.app.goo.gl/Py8r6X8kHbPMPFsa7?g_st=aw" target="_blank" rel="noopener">Get Directions</a></li>
+  <li class="rv"><i>3</i><h3>Reception</h3><p>28 Nov 2026 &middot; Saturday &middot; 7:00 PM</p><p>Parinoy The Banquet, Dharma, Midnapore</p><a href="https://www.google.com/maps/dir/?api=1&amp;destination=22.42923367959408%2C87.33529867478236" target="_blank" rel="noopener">Get Directions</a></li>
  </ol>
 </section>
 
@@ -223,7 +226,7 @@ footer h2{margin:8px 0}
 (()=>{
 "use strict";
 const $=s=>document.querySelector(s),R=matchMedia("(prefers-reduced-motion:reduce)").matches,HT=document.documentElement;
-const MAPS="https://maps.app.goo.gl/Py8r6X8kHbPMPFsa7?g_st=aw";
+const MAPS="https://www.google.com/maps/dir/?api=1&destination=22.42923367959408%2C87.33529867478236";
 
 /* ===== SCROLL REVEAL ===== */
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
