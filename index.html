@@ -67,9 +67,9 @@ h2{font-size:clamp(34px,9vw,52px);margin:6px 0 28px}
 .hd{font:600 26px "Cormorant Garamond",serif;margin:16px 0 22px;color:var(--mr)}
 .hint{margin-top:26px;font-size:14px;letter-spacing:.25em;text-transform:uppercase;color:var(--gd)}
 /* ===== COUPLE ===== */
-.cp{display:grid;gap:22px;grid-template-columns:1fr}
-.cp .card{border-radius:140px 140px 18px 18px;padding-top:34px}
-.cp svg{width:150px;height:auto;margin:10px auto}
+.cp{display:grid;grid-template-columns:1fr;gap:22px;justify-items:center}
+.cp .card{width:min(100%,660px);border-radius:140px 140px 18px 18px;padding:34px 18px 18px;background:var(--iv)}
+.cp img{display:block;width:min(100%,320px);height:auto;margin:12px auto 0;background:var(--iv)}
 .cp h3{font-size:30px}
 /* ===== COUNTDOWN ===== */
 .cdw{background:linear-gradient(var(--bl),var(--iv))}
@@ -103,7 +103,7 @@ h2{font-size:clamp(34px,9vw,52px);margin:6px 0 28px}
 #lc{position:absolute;bottom:20px;color:var(--lg);font-size:16px;letter-spacing:.1em}
 /* ===== FOOTER ===== */
 footer{background:linear-gradient(var(--iv),var(--bl));padding:40px 20px 70px;text-align:center}
-footer svg.sc2{width:min(300px,80vw);height:auto}
+footer img.sc2{display:block;width:min(300px,80vw);height:auto;margin:0 auto;background:transparent}
 footer h2{margin:8px 0}
 /* ===== EFFECT LAYERS ===== */
 #fp{position:absolute;left:0;top:0;width:100%;pointer-events:none;z-index:5;overflow:visible}
@@ -162,8 +162,8 @@ footer h2{margin:8px 0}
 <section class="sc" id="couple">
  <p class="eb rv">With Blessings</p><h2 class="rv">The Couple</h2>
  <div class="cp">
-  <article class="card rv" style="--i:1"><p class="eb">The Groom</p><h3>Shouvik Panja</h3><svg viewBox="0 0 100 170" role="img" aria-label="Caricature of the groom with glasses and beard in an ivory sherwani"><use href="#G"/></svg></article>
-  <article class="card rv" style="--i:2"><p class="eb">The Bride</p><h3>Pratiksha Sarkar</h3><svg viewBox="0 0 100 170" role="img" aria-label="Caricature of the bride in a red lehenga"><use href="#B"/></svg></article>
+  <article class="card rv" style="--i:1"><p class="eb">The Groom</p><h3>Shouvik Panja</h3><img src="groom-portrait.jpg" alt="Shouvik in a traditional Bengali wedding panjabi and topor" width="1024" height="1536" fetchpriority="high"></article>
+  <article class="card rv" style="--i:2"><p class="eb">The Bride</p><h3>Pratiksha Sarkar</h3><img src="bride-portrait.jpg" alt="Pratiksha in a traditional Bengali red-and-gold bridal sari and mukut" width="1024" height="1536" loading="lazy"></article>
  </div>
 </section>
 
@@ -214,7 +214,7 @@ footer h2{margin:8px 0}
 
 <!-- ===== FOOTER ===== -->
 <footer>
- <svg class="sc2 rv" viewBox="0 0 220 170" role="img" aria-label="Illustration of the couple together"><use href="#G" x="8"/><use href="#B" x="112"/><path d="M110 40c-10-8-8-18 0-18 8-2 10 8 0 18z" fill="#B01E2F" transform="translate(0 -4)"/></svg>
+ <img class="sc2 rv" src="bengali-wedding-couple-transparent.png" alt="Shouvik and Pratiksha in Bengali wedding attire" width="1300" height="1209" loading="lazy">
  <h2 class="rv">Shouvik Panja &amp; Pratiksha Sarkar</h2>
  <p class="rv">28th November, 2026</p><p class="rv">Parinoy The Banquet</p>
  <p class="rv" style="margin-top:14px;font:500 24px 'Cormorant Garamond',serif;color:var(--rd)">With love, the Panja families</p>
