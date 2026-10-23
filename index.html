@@ -71,6 +71,10 @@ h2{font-size:clamp(34px,9vw,52px);margin:6px 0 28px}
 .cp .card{width:min(100%,660px);border-radius:140px 140px 18px 18px;padding:34px 18px 18px;background:var(--iv)}
 .cp img{display:block;width:min(100%,320px);height:auto;margin:12px auto 0;background:var(--iv)}
 .cp h3{font-size:30px}
+/* ===== PRE-WEDDING VIDEO ===== */
+.video-band{background:linear-gradient(var(--iv),var(--bl))}
+.video-frame{width:min(100%,860px);margin:0 auto;padding:8px;border:1px solid var(--gd);border-radius:12px;background:rgba(255,250,240,.92);box-shadow:0 10px 28px rgba(94,15,28,.12)}
+.video-frame iframe{display:block;width:100%;aspect-ratio:16/9;border:1px solid rgba(184,137,59,.55);border-radius:7px}
 /* ===== COUNTDOWN ===== */
 .cdw{background:linear-gradient(var(--bl),var(--iv))}
 .cd{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:520px;margin:auto}
@@ -105,6 +109,7 @@ h2{font-size:clamp(34px,9vw,52px);margin:6px 0 28px}
 footer{background:linear-gradient(var(--iv),var(--bl));padding:40px 20px 70px;text-align:center}
 footer img.sc2{display:block;width:min(300px,80vw);height:auto;margin:0 auto;background:transparent}
 footer h2{margin:8px 0}
+.copyright{margin-top:30px;color:var(--gd);font-size:13px}
 /* ===== EFFECT LAYERS ===== */
 #fp{position:absolute;left:0;top:0;width:100%;pointer-events:none;z-index:5;overflow:visible}
 .pl,.gl{position:fixed;inset:0;pointer-events:none;z-index:6;overflow:clip}
@@ -167,6 +172,14 @@ footer h2{margin:8px 0}
  </div>
 </section>
 
+<!-- ===== PRE-WEDDING VIDEO ===== -->
+<section class="video-band">
+ <div class="sc">
+  <p class="eb rv">A Moment Together</p><h2 class="rv">Our Pre-Wedding Film</h2>
+  <div class="video-frame rv"><iframe src="https://www.youtube.com/embed/mT9Z0nYP70I" title="Mothura | Coke Studio Bangla | Season 4 | Ankan x Nandita | Shuvendu" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>
+ </div>
+</section>
+
 <!-- ===== COUNTDOWN ===== -->
 <section class="cdw"><div class="sc" id="cd">
  <p class="eb rv">Counting Down</p><h2 class="rv">Our Big Day</h2>
@@ -220,6 +233,7 @@ footer h2{margin:8px 0}
  <p class="rv" style="margin-top:14px;font:500 24px 'Cormorant Garamond',serif;color:var(--rd)">With love, the Panja families</p>
  <p class="rv" style="margin:14px 0 4px">+91 9434414260 (Aditya Kr. Panja)</p>
  <div class="rv"><a class="btn" id="wa" target="_blank" rel="noopener" href="#">RSVP on WhatsApp</a><button class="btn o" id="lan" type="button">Release a Wish Lantern</button></div>
+ <p class="copyright rv">&copy; 2026 All rights reserved. For Tathagata Jana.</p>
 </footer>
 
 <script>
